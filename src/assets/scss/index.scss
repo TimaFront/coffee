@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: auto !important;
+  scroll-margin: 0 !important;
+}
+
+body {
+  font-family: 'Podkova', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  background: #ffffff;
+}
+
+a {
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+}
+
+.hero-section {
+  margin-bottom: 32px;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+}

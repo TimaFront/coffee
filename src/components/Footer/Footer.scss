@@ -1,0 +1,49 @@
+.footer-wrapper {
+    width: 100%;
+    background: rgb(245, 245, 245);
+    margin: 0 -20px;
+}
+
+.footer {
+    padding: 16px 0;
+    border-top: 1px solid #f3f3f3;
+
+    &__container {
+        max-width: 1460px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__copyright {
+        color: rgb(80, 80, 80);
+        line-height: 20px;
+    }
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+    }
+
+    &__contact-text {
+        color: rgb(80, 80, 80);
+        font-family: Podkova;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+    }
+
+    &__phone {
+        color: rgb(80, 80, 80);
+        font-family: Podkova;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+    }
+} 
