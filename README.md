@@ -33,6 +33,7 @@ git clone https://github.com/your-username/coffee.git
 cd coffee
 npm install
 npm start
+```
 
 📈 Планы по улучшению
 Интеграция с платежной системой
